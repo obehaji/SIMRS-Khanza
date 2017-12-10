@@ -167,7 +167,7 @@ public class DlgVakum extends javax.swing.JDialog {
         setUndecorated(true);
         setResizable(false);
 
-        internalFrame1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(240, 245, 235)), ".: Silahkan klik tombol untuk menghapus isi table", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(50, 70, 40))); // NOI18N
+        internalFrame1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(240, 245, 235)), ".: Silahkan klik tombol untuk menghapus isi table", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(90,120,80))); // NOI18N
         internalFrame1.setToolTipText("");
         internalFrame1.setName("internalFrame1"); // NOI18N
         internalFrame1.setLayout(new java.awt.BorderLayout(1, 1));
@@ -2590,6 +2590,8 @@ public class DlgVakum extends javax.swing.JDialog {
         hapus("Akun Piutang","Jurnal Akuntansi","akun_piutang");
         hapus("Rekening Tahun","Jurnal Akuntansi","rekeningtahun");        
         hapus("Subrekening","Lain","subrekening");
+        hapus("Kategori Pemasukan Lain-Lain","Rekening Tahun","kategori_pemasukan_lain");
+        hapus("Kategori Pengeluaran Harian","Rekening Tahun","kategori_pengeluaran_harian");
         hapus("Akun Rekening","Rekening Tahun","rekening");
     }//GEN-LAST:event_BtnICD86ActionPerformed
 
