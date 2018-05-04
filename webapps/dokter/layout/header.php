@@ -80,6 +80,14 @@ if (!isset($_COOKIE['username']) && !isset($_COOKIE['password'])) {
 
     <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
     <link href="css/all-themes.min.css" rel="stylesheet" />
+
+<script src="js/jquery.min.js" defer></script>
+<script src="js/bootstrap-select.js" defer></script>
+<script src="js/select2.min.js" defer></script>
+
+
+ 
+
 </head>
 
 <body class="theme-green">
