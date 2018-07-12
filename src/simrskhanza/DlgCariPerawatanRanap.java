@@ -11,6 +11,8 @@
 
 package simrskhanza;
 
+import kepegawaian.DlgCariDokter;
+import kepegawaian.DlgCariPetugas;
 import keuangan.DlgJnsPerawatanRanap;
 import fungsi.WarnaTable;
 import fungsi.batasInput;
@@ -708,7 +710,7 @@ public final class DlgCariPerawatanRanap extends javax.swing.JDialog {
 
         DTPTgl.setEditable(false);
         DTPTgl.setForeground(new java.awt.Color(50, 70, 50));
-        DTPTgl.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "11-04-2018" }));
+        DTPTgl.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "19-05-2018" }));
         DTPTgl.setDisplayFormat("dd-MM-yyyy");
         DTPTgl.setName("DTPTgl"); // NOI18N
         DTPTgl.setOpaque(false);
@@ -930,8 +932,6 @@ public final class DlgCariPerawatanRanap extends javax.swing.JDialog {
 
     private void BtnTambahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnTambahActionPerformed
         this.setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
-        
-        //perawatan.setModal(true);
         perawatan.emptTeks();
         perawatan.isCek();
         perawatan.setSize(internalFrame1.getWidth()+40,internalFrame1.getHeight()+40);
